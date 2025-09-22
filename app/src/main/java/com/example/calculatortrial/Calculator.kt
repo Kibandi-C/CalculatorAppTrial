@@ -33,7 +33,6 @@ import com.example.calculatortrial.ui.theme.Orange
 
 @Composable
 fun Calculator(
-    navController:NavHostController,
     state : CalculatorState,
     buttonSpacing : Dp = 8.dp,
     modifier : Modifier = Modifier,
